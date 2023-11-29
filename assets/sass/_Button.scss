@@ -1,0 +1,23 @@
+@mixin mybtn($bg-color) {
+	border-radius: 15px;
+	font-family: inherit;
+	padding: $p-inline-block;
+	font-weight: 300;
+	display: inline-block;
+	cursor: pointer;
+	border: none;
+	margin: $m-inline-block;
+	background-color: $bg-color;
+}
+
+.btn1 {
+	@include mybtn($btn-color-info);
+}
+
+.btn2 {
+	@include mybtn($btn-color-contact);
+}
+
+.btn3 {
+	@include mybtn($btn-color-login);
+}

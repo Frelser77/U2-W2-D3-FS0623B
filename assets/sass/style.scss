@@ -1,0 +1,50 @@
+@import "Reset";
+@import "Font";
+@import "Color";
+@import "Spaziature";
+@import "Button";
+@import "Mix";
+
+body {
+	font-family: $font-family-base;
+
+	h1.title-main {
+		@include title-big;
+		padding: $p-xl-inline-block;
+	}
+
+	.mybtn:hover {
+		transform: scale(1.2);
+	}
+
+	@keyframes fadeInDown {
+		from {
+			opacity: 0;
+			transform: translateY(-40px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.fadeInDown {
+		animation: fadeInDown 1.5s;
+	}
+
+	@keyframes fadeInDown2 {
+		from {
+			opacity: 0;
+			transform: translateY(-40px);
+		}
+		to {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.fadeInDown2 {
+		animation: fadeInDown2 1.8s;
+		animation-delay: 0.5s;
+	}
+}
