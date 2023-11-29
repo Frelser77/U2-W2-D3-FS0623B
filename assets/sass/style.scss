@@ -29,7 +29,7 @@ body {
 	}
 
 	.fadeInDown {
-		animation: fadeInDown 1.5s;
+		animation: fadeInDown 1.3s;
 	}
 
 	@keyframes fadeInDown2 {
@@ -44,7 +44,7 @@ body {
 	}
 
 	.fadeInDown2 {
-		animation: fadeInDown2 1.8s;
-		animation-delay: 0.5s;
+		animation: fadeInDown2 1.3s backwards;
+		animation-delay: 0.2s;
 	}
 }
