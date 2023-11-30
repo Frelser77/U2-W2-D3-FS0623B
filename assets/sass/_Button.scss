@@ -1,13 +1,14 @@
 @mixin mybtn($bg-color) {
-	border-radius: 15px;
+	color: black;
 	font-family: inherit;
-	padding: $p-inline-block;
 	font-weight: 300;
-	display: inline-block;
-	cursor: pointer;
 	border: none;
+	border-radius: 15px;
+	display: inline-block;
+	padding: $p-inline-block;
 	margin: $m-inline-block;
 	background-color: $bg-color;
+	cursor: pointer;
 }
 
 .btn1 {
